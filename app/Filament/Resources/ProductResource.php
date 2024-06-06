@@ -129,7 +129,7 @@ class ProductResource extends Resource
                         Forms\Components\Section::make('Image')
                             ->schema([
                                 Forms\Components\FileUpload::make('image')
-                                    ->directory('form-attachments')
+                                    ->directory('images-files')
                                     ->preserveFilenames()
                                     ->image()
                                     ->imageEditor()
